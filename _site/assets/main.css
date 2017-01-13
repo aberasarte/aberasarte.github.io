@@ -430,18 +430,39 @@ pre > code {
 
 .site-nav {
   padding: 150px 0; }
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      padding: 50px 0; } }
   .site-nav .brand__container {
     text-align: center;
+    margin: auto;
     width: 590px; }
+    @media screen and (max-width: 600px) {
+      .site-nav .brand__container {
+        width: auto; } }
     .site-nav .brand__container .brand {
-      margin-bottom: 16px; }
+      margin-bottom: 16px;
+      background: url(images/ARIMA_logo_black.png) no-repeat center center;
+      width: 341px;
+      height: 75px;
+      display: inline-block; }
+      @media screen and (max-width: 600px) {
+        .site-nav .brand__container .brand {
+          background: url(images/ARIMA_mini_logo_black.png) no-repeat center center;
+          width: 120px; } }
     .site-nav .brand__container .claim {
       float: right;
       font-family: gothamthin, Arial, Helvetica, sans-serif; }
+      @media screen and (max-width: 600px) {
+        .site-nav .brand__container .claim {
+          float: none; } }
       .site-nav .brand__container .claim .claim__text, .site-nav .brand__container .claim .claim__description {
         display: inline-block; }
       .site-nav .brand__container .claim .claim__text {
         vertical-align: top; }
+        @media screen and (max-width: 600px) {
+          .site-nav .brand__container .claim .claim__text {
+            display: none; } }
       .site-nav .brand__container .claim .claim__description {
         margin-left: 8px;
         text-align: left;
@@ -464,37 +485,6 @@ pre > code {
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 15px;
-      background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg path {
-          fill: #424242; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px;
-        margin-left: 20px; }
-        .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
 
 /**
  * Site footer
