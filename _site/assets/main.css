@@ -442,13 +442,13 @@ pre > code {
         width: auto; } }
     .site-nav .brand__container .brand {
       margin-bottom: 16px;
-      background: url(images/ARIMA_logo_black.png) no-repeat center center;
+      background: url("images/ARIMA_logo_black.png") no-repeat center center;
       width: 341px;
       height: 75px;
       display: inline-block; }
       @media screen and (max-width: 600px) {
         .site-nav .brand__container .brand {
-          background: url(images/ARIMA_mini_logo_black.png) no-repeat center center;
+          background: url("images/ARIMA_mini_logo_black.png") no-repeat center center;
           width: 120px; } }
     .site-nav .brand__container .claim {
       float: right;
@@ -542,15 +542,46 @@ pre > code {
  * Posts
  */
 .post-header {
+  height: 300px;
   margin-bottom: 30px; }
+  .post-header::before, .post-header::after {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    height: 300px; }
+  .post-header::before {
+    background-color: black; }
+  .post-header::after {
+    background: url("http://blog.base68.com/assets/article_images/2014-11-30-mediator_features/night-track.JPG");
+    background-size: cover;
+    background-position: 0 30%;
+    height: 300px;
+    opacity: 0.4; }
+  @media screen and (max-width: 600px) {
+    .post-header {
+      background-position: initial; } }
 
-.post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1; }
-  @media screen and (max-width: 800px) {
-    .post-title {
-      font-size: 36px; } }
+.post-info__container {
+  height: 300px;
+  position: relative; }
+  .post-info__container .post-info {
+    position: absolute;
+    bottom: 0; }
+    .post-info__container .post-info .post-title {
+      font-size: 42px;
+      letter-spacing: -1px;
+      line-height: 1;
+      color: white;
+      font-family: gothamextra_light; }
+      @media screen and (max-width: 800px) {
+        .post-info__container .post-info .post-title {
+          font-size: 36px; } }
+    .post-info__container .post-info .post-meta {
+      color: #e8e8e8; }
 
 .post-content {
   margin-bottom: 30px; }
