@@ -1,24 +1,36 @@
----
-layout: default
----
-<div class="home">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {{ content }}
+  {% include head.html %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        <p>
-          {{ post.excerpt | strip_html | truncatewords: 50 }}
-        </p>
-        <span class="post-meta">{{ post.date | date_to_string }}</span>
-      </li>
-    {% endfor %}
-  </ul>
+  <body>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {% include home-cover.html %}
 
-</div>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home">
+
+          {{ content }}
+
+          <ul class="post-list">
+            {% for post in site.posts %}
+              <li>
+                <h2>
+                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h2>
+                <p>
+                  {{ post.excerpt | strip_html | truncatewords: 50 }}
+                </p>
+                <span class="post-meta">{{ post.date | date_to_string }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+
+          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
