@@ -1,6 +1,10 @@
+.home{
+	margin: $spacing-unit 0;
+}
+
 .home-cover{
 	@extend %cardboard-background;
-	padding: 150px 0;
+	height: 100vh;
 
 	@include media-query($on-palm) {
 	padding: 50px 0;
@@ -9,7 +13,13 @@
   .brand__container{
     text-align: center;
     margin: auto;
+  	position: absolute;
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
     width: 590px;
+    height: 200px;
 
     @include media-query($on-palm) {
       width: auto;
