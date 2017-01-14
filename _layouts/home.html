@@ -14,7 +14,7 @@ layout: default
         <p>
           {{ post.excerpt | strip_html | truncatewords: 50 }}
         </p>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date_to_string }}</span>
       </li>
     {% endfor %}
   </ul>

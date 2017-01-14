@@ -372,7 +372,7 @@ pre > code {
 /**
  * Clearfix
  */
-.wrapper:after, .site-nav .brand__container .brand:after, .site-nav .brand__container .claim .claim__description div:first-child:after, .footer-col-wrapper:after {
+.wrapper:after, .home-cover .brand__container .brand:after, .site-nav .brand__container .brand:after, .home-cover .brand__container .claim .claim__description div:first-child:after, .site-nav .brand__container .claim .claim__description div:first-child:after, .footer-col-wrapper:after {
   content: "";
   display: table;
   clear: both; }
@@ -413,7 +413,7 @@ pre > code {
  */
 .site-header {
   border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
+  min-height: 50px;
   position: relative;
   background-color: #cccccc;
   background-image: url("images/cardboard.png");
@@ -428,63 +428,64 @@ pre > code {
   .site-title, .site-title:visited {
     color: #424242; }
 
-.site-nav {
+.home-cover {
   padding: 150px 0; }
   @media screen and (max-width: 600px) {
-    .site-nav {
+    .home-cover {
       padding: 50px 0; } }
-  .site-nav .brand__container {
-    text-align: center;
-    margin: auto;
-    width: 590px; }
+
+.home-cover .brand__container, .site-nav .brand__container {
+  text-align: center;
+  margin: auto;
+  width: 590px; }
+  @media screen and (max-width: 600px) {
+    .home-cover .brand__container, .site-nav .brand__container {
+      width: auto; } }
+  .home-cover .brand__container .brand, .site-nav .brand__container .brand {
+    margin-bottom: 16px;
+    background: url("images/ARIMA_logo_black.png") no-repeat center center;
+    width: 341px;
+    height: 75px;
+    display: inline-block; }
     @media screen and (max-width: 600px) {
-      .site-nav .brand__container {
-        width: auto; } }
-    .site-nav .brand__container .brand {
-      margin-bottom: 16px;
-      background: url("images/ARIMA_logo_black.png") no-repeat center center;
-      width: 341px;
-      height: 75px;
+      .home-cover .brand__container .brand, .site-nav .brand__container .brand {
+        background: url("images/ARIMA_mini_logo_black.png") no-repeat center center;
+        width: 120px; } }
+  .home-cover .brand__container .claim, .site-nav .brand__container .claim {
+    float: right;
+    font-family: gothamthin, Arial, Helvetica, sans-serif; }
+    @media screen and (max-width: 600px) {
+      .home-cover .brand__container .claim, .site-nav .brand__container .claim {
+        float: none; } }
+    .home-cover .brand__container .claim .claim__text, .home-cover .brand__container .claim .claim__description, .site-nav .brand__container .claim .claim__text, .site-nav .brand__container .claim .claim__description {
       display: inline-block; }
+    .home-cover .brand__container .claim .claim__text, .site-nav .brand__container .claim .claim__text {
+      vertical-align: top; }
       @media screen and (max-width: 600px) {
-        .site-nav .brand__container .brand {
-          background: url("images/ARIMA_mini_logo_black.png") no-repeat center center;
-          width: 120px; } }
-    .site-nav .brand__container .claim {
-      float: right;
-      font-family: gothamthin, Arial, Helvetica, sans-serif; }
-      @media screen and (max-width: 600px) {
-        .site-nav .brand__container .claim {
-          float: none; } }
-      .site-nav .brand__container .claim .claim__text, .site-nav .brand__container .claim .claim__description {
-        display: inline-block; }
-      .site-nav .brand__container .claim .claim__text {
-        vertical-align: top; }
-        @media screen and (max-width: 600px) {
-          .site-nav .brand__container .claim .claim__text {
-            display: none; } }
-      .site-nav .brand__container .claim .claim__description {
-        margin-left: 8px;
-        text-align: left;
-        line-height: 26px;
-        font-size: 24px;
-        position: relative; }
-        .site-nav .brand__container .claim .claim__description::before {
-          content: "";
-          position: absolute;
-          height: 50px;
-          left: -8px;
-          border-right: 1px solid black;
-          transform: skew(-20deg); }
-        .site-nav .brand__container .claim .claim__description div:first-child {
-          margin-left: 8px; }
-  .site-nav .menu-icon {
-    display: none; }
-  .site-nav .page-link {
-    color: #111;
-    line-height: 1.5; }
-    .site-nav .page-link:not(:last-child) {
-      margin-right: 20px; }
+        .home-cover .brand__container .claim .claim__text, .site-nav .brand__container .claim .claim__text {
+          display: none; } }
+    .home-cover .brand__container .claim .claim__description, .site-nav .brand__container .claim .claim__description {
+      margin-left: 8px;
+      text-align: left;
+      line-height: 26px;
+      font-size: 24px;
+      position: relative; }
+      .home-cover .brand__container .claim .claim__description::before, .site-nav .brand__container .claim .claim__description::before {
+        content: "";
+        position: absolute;
+        height: 50px;
+        left: -8px;
+        border-right: 1px solid black;
+        transform: skew(-20deg); }
+      .home-cover .brand__container .claim .claim__description div:first-child, .site-nav .brand__container .claim .claim__description div:first-child {
+        margin-left: 8px; }
+.home-cover .menu-icon, .site-nav .menu-icon {
+  display: none; }
+.home-cover .page-link, .site-nav .page-link {
+  color: #111;
+  line-height: 1.5; }
+  .home-cover .page-link:not(:last-child), .site-nav .page-link:not(:last-child) {
+    margin-right: 20px; }
 
 /**
  * Site footer
@@ -541,29 +542,31 @@ pre > code {
 /**
  * Posts
  */
-.post-header {
-  height: 300px;
-  margin-bottom: 30px; }
-  .post-header::before, .post-header::after {
-    content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    height: 300px; }
-  .post-header::before {
-    background-color: black; }
-  .post-header::after {
-    background: url("http://blog.base68.com/assets/article_images/2014-11-30-mediator_features/night-track.JPG");
-    background-size: cover;
-    background-position: 0 30%;
+.post {
+  position: relative; }
+  .post .post-header {
     height: 300px;
-    opacity: 0.4; }
-  @media screen and (max-width: 600px) {
-    .post-header {
-      background-position: initial; } }
+    margin-bottom: 30px; }
+    .post .post-header::before, .post .post-header::after {
+      content: "";
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+      height: 300px; }
+    .post .post-header::before {
+      background-color: black; }
+    .post .post-header::after {
+      background: url("http://blog.base68.com/assets/article_images/2014-11-30-mediator_features/night-track.JPG");
+      background-size: cover;
+      background-position: 0 30%;
+      height: 300px;
+      opacity: 0.4; }
+    @media screen and (max-width: 600px) {
+      .post .post-header {
+        background-position: initial; } }
 
 .post-info__container {
   height: 300px;
@@ -576,7 +579,7 @@ pre > code {
       letter-spacing: -1px;
       line-height: 1;
       color: white;
-      font-family: gothamextra_light; }
+      font-family: gothambook; }
       @media screen and (max-width: 800px) {
         .post-info__container .post-info .post-title {
           font-size: 36px; } }

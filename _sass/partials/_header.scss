@@ -3,7 +3,7 @@
  */
 .site-header {
   border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
+  min-height: 50px;
   // background-color: $grey-color-dark;
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -27,14 +27,15 @@
   }
 }
 
-.site-nav {
-
+.home-cover{
   padding: 150px 0;
 
   @include media-query($on-palm) {
     padding: 50px 0;
   }
+}
 
+.home-cover, .site-nav {
   .brand__container{
     text-align: center;
     margin: auto;
@@ -114,6 +115,7 @@
       margin-right: 20px;
     }
   }
+}
 
   // // @include media-query($on-palm) {
   // //   position: absolute;
@@ -158,4 +160,3 @@
   //     margin-left: 20px;
   //   }
   // }
-}

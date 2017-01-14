@@ -35,3 +35,16 @@ exclude:
 sass:
     sass_dir: _sass
     # style: compressed
+authors:
+  telle:
+    display_name: Iñigo Telleria
+    bio: Un resumen para Telle
+    gravatar: b4b47ba716148b3bb8cc62f6982d9c5a
+  aritz:
+      display_name: Aritz Berasarte
+      bio: Un resumen para Aritz
+      gravatar:
+  ugaitz:
+	display_name: Ugaitz Urien
+    bio: Un resumen para Ugaitz
+    gravatar:

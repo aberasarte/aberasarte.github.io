@@ -4,35 +4,39 @@
 
 $post-header-height: 300px;
 
-.post-header {
-  height: $post-header-height;
-  margin-bottom: $spacing-unit;
+.post{
+  position: relative;
 
-  &::before, &::after {
-    content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
+  .post-header {
     height: $post-header-height;
-  }
+    margin-bottom: $spacing-unit;
 
-  &::before{
-    background-color: black;
-  }
+    &::before, &::after {
+      content: "";
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+      height: $post-header-height;
+    }
 
-  &::after {
-    background: url("http://blog.base68.com/assets/article_images/2014-11-30-mediator_features/night-track.JPG");
-    background-size: cover;
-    background-position: 0 30%;
-    height: $post-header-height;
-    opacity: 0.4;
-  }
-  
-  @include media-query($on-palm) {
-    background-position: initial;  
+    &::before{
+      background-color: black;
+    }
+
+    &::after {
+      background: url("http://blog.base68.com/assets/article_images/2014-11-30-mediator_features/night-track.JPG");
+      background-size: cover;
+      background-position: 0 30%;
+      height: $post-header-height;
+      opacity: 0.4;
+    }
+    
+    @include media-query($on-palm) {
+      background-position: initial;  
+    }
   }
 }
 
@@ -49,7 +53,7 @@ $post-header-height: 300px;
       letter-spacing: -1px;
       line-height: 1;
       color: white;
-      font-family: gothamextra_light;
+      font-family: gothambook;
 
       @include media-query($on-laptop) {
         font-size: 36px;
