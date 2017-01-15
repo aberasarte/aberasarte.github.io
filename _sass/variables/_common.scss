@@ -39,6 +39,12 @@ $on-laptop:        800px !default;
   }
 }
 
+@mixin border-radius($radius...) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}
+
 %cardboard-background{
 	background-image: url("images/cardboard.png");
 	background-color: #cccccc;

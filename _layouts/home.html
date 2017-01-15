@@ -22,7 +22,18 @@
                 <p>
                   {{ post.excerpt | strip_html | truncatewords: 50 }}
                 </p>
-                <span class="post-meta">{{ post.date | date_to_string }}</span>
+                <div class="post-meta">
+                  {% assign author = site.authors[post.author] %}
+                  <div class="author-photo">
+                    <img src="{{site.baseurl}}/assets/images/authors/{{post.author}}.png" alt="">
+                  </div>
+                  <div>
+                    <span class="post-author">{{ author.display_name }}</span>
+                  </div>
+                  <div>
+                    <span class="post-date">{{ post.date | date_to_string }}</span>
+                  </div>
+                </div>
               </li>
             {% endfor %}
           </ul>

@@ -40,13 +40,36 @@ $post-header-height: 300px;
   }
 }
 
+.post-meta{
+
+  line-height: 16px;
+
+  .author-photo{
+    float: left;
+    margin-right: 8px;
+    img{
+      // border-radius: 50%;
+      @include border-radius (50%);
+      height: 32px;
+    }
+  }
+
+  .post-author{
+    
+  }
+  .post-date{
+    font-family: gothamextra_light;
+    font-size: 12px;
+  }
+}
+
 .post-info__container{
   height: $post-header-height;
   position: relative;
 
   .post-info{
     position: absolute;
-    bottom: 0;
+    bottom: 16px;
 
     .post-title {
       font-size: 42px;

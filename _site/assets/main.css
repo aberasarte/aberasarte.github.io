@@ -404,6 +404,8 @@ pre > code {
   list-style: none; }
   #post-list > li {
     margin-bottom: 30px; }
+  #post-list h2, #post-list p {
+    margin-bottom: 8px; }
 
 .post-meta {
   font-size: 14px;
@@ -586,12 +588,26 @@ pre > code {
       .post .post-header {
         background-position: initial; } }
 
+.post-meta {
+  line-height: 16px; }
+  .post-meta .author-photo {
+    float: left;
+    margin-right: 8px; }
+    .post-meta .author-photo img {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      height: 32px; }
+  .post-meta .post-date {
+    font-family: gothamextra_light;
+    font-size: 12px; }
+
 .post-info__container {
   height: 300px;
   position: relative; }
   .post-info__container .post-info {
     position: absolute;
-    bottom: 0; }
+    bottom: 16px; }
     .post-info__container .post-info .post-title {
       font-size: 42px;
       letter-spacing: -1px;
