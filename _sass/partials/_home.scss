@@ -85,9 +85,11 @@
   #post-list-link{
 	position: absolute;
     bottom: 15%;
-    font-size: 32px;
+    font-size: 16px;
     left: 50%;
-    font-family: gothambook;
-    opacity: 0.75;
+    opacity: 0.45;
+    padding: 4px 8px;
+    background-color: rgb(226, 222, 216);
+    @include border-radius(50%);
   }
 }
