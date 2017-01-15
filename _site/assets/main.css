@@ -399,10 +399,10 @@ pre > code {
 .page-heading {
   font-size: 20px; }
 
-.post-list {
+#post-list {
   margin-left: 0;
   list-style: none; }
-  .post-list > li {
+  #post-list > li {
     margin-bottom: 30px; }
 
 .post-meta {
@@ -549,6 +549,13 @@ pre > code {
           transform: skew(-20deg); }
         .home-cover .brand__container .claim .claim__description div:first-child {
           margin-left: 8px; }
+  .home-cover #post-list-link {
+    position: absolute;
+    bottom: 15%;
+    font-size: 32px;
+    left: 50%;
+    font-family: gothambook;
+    opacity: 0.75; }
 
 /**
  * Posts

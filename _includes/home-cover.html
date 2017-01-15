@@ -15,8 +15,48 @@
           </div>
         </div>
       </div>
+      <a id="post-list-link" href="#">
+        <span>&#x25BE;</span>
+      </a>
     </div>
 
   </div>
 
 </header>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    var postsLink = document.querySelector("#post-list-link");
+    postsLink.addEventListener("click",function(e){
+      e.preventDefault();
+      scrollTo(document.body, findPosition("#post-list"),500);
+      return false;
+    },false)
+
+    function findPosition(elementSelector) {
+      var node = document.querySelector(elementSelector);
+      var curtop = 0;
+      var curtopscroll = 0;
+      if (node.offsetParent) {
+          do {
+              curtop += node.offsetTop;
+              curtopscroll += node.offsetParent ? node.offsetParent.scrollTop : 0;
+          } while (node = node.offsetParent);
+
+          return (curtop - curtopscroll);
+      }
+    }
+
+    function scrollTo(element, to, duration) {
+      if (duration <= 0) return;
+      var difference = to - element.scrollTop;
+      var perTick = difference / duration * 10;
+
+      setTimeout(function() {
+        element.scrollTop = element.scrollTop + perTick;
+        if (element.scrollTop == to) return;
+        scrollTo(element, to, duration - 10);
+      }, 10);
+    }
+  });
+</script>
