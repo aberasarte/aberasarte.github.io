@@ -11,7 +11,7 @@ $post-header-height: 300px;
     height: $post-header-height;
     margin-bottom: $spacing-unit;
 
-    &::before, &::after {
+    &::before, .post-img {
       content: "";
       top: 0;
       left: 0;
@@ -26,8 +26,7 @@ $post-header-height: 300px;
       background-color: black;
     }
 
-    &::after {
-      background: url("http://blog.base68.com/assets/article_images/2014-11-30-mediator_features/night-track.JPG");
+    .post-img {
       background-size: cover;
       background-position: 0 30%;
       height: $post-header-height;

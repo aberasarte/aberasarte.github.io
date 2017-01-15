@@ -605,7 +605,7 @@ pre > code {
   .post .post-header {
     height: 300px;
     margin-bottom: 30px; }
-    .post .post-header::before, .post .post-header::after {
+    .post .post-header::before, .post .post-header .post-img {
       content: "";
       top: 0;
       left: 0;
@@ -616,8 +616,7 @@ pre > code {
       height: 300px; }
     .post .post-header::before {
       background-color: black; }
-    .post .post-header::after {
-      background: url("http://blog.base68.com/assets/article_images/2014-11-30-mediator_features/night-track.JPG");
+    .post .post-header .post-img {
       background-size: cover;
       background-position: 0 30%;
       height: 300px;

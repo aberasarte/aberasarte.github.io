@@ -5,7 +5,7 @@ date:   2014-11-30 14:34:25
 author: aritz
 categories: mediator feature
 tags: featured
-image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+header-image:	2017-01-12-mediator_features/post-header.jpg
 ---
 # Mediator Formats and CSS features. Examples for different formats and css features
 
