@@ -39,6 +39,24 @@ $on-laptop:        800px !default;
   }
 }
 
+.show-on-palm{
+	@media screen and (min-width: $on-palm) {
+		display: none !important;
+	}
+	@include media-query($on-palm){
+		display: block;
+	}
+}
+
+.hide-on-palm{
+	@media screen and (min-width: $on-palm) {
+		display: block;
+	}
+	@include media-query($on-palm){
+		display: none !important;
+	}
+}
+
 @mixin border-radius($radius...) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;

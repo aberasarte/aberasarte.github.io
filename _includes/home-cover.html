@@ -4,7 +4,12 @@
 
     <div>
       <div class="brand__container">
-        <div class="brand"></div>
+        <div class="brand hide-on-palm">
+          {% include arima-logo.html %}
+        </div>
+        <div class="brand show-on-palm">
+          {% include arima-a.html%}
+        </div>
         <div>
           <div class="claim">
             <span class="claim__text">100% SOFTWARE DESIGN</span>

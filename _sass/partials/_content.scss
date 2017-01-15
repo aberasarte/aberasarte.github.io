@@ -29,4 +29,9 @@
 
 .post-link {
   font-size: 26px;
+  @include media-query($on-palm) {
+    font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
 }

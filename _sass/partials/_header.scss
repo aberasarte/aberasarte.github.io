@@ -4,18 +4,14 @@
 .site-header {
   @extend %cardboard-background;
   border-bottom: 1px solid $grey-color-light;
-  min-height: 50px;
-  // background-color: $grey-color-dark;
-  // Positioning context for the mobile navigation icon
+  min-height: 40px;
   position: relative;
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-
+  
 }
 
 .site-title {
-  background: url(images/banner.png) no-repeat center center;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   margin-bottom: 0;
   float: left;
 
@@ -40,47 +36,3 @@
     }
   }
 }
-
-  // // @include media-query($on-palm) {
-  // //   position: absolute;
-  // //   top: 9px;
-  // //   right: $spacing-unit / 2;
-  // //   background-color: $background-color;
-  // //   border: 1px solid $grey-color-light;
-  // //   border-radius: 5px;
-  // //   text-align: right;
-
-  // //   .menu-icon {
-  // //     display: block;
-  // //     float: right;
-  // //     width: 36px;
-  // //     height: 26px;
-  // //     line-height: 0;
-  // //     padding-top: 10px;
-  // //     text-align: center;
-
-  // //     > svg path {
-  // //       fill: $grey-color-dark;
-  // //     }
-  // //   }
-
-  //   .trigger {
-  //     clear: both;
-  //     display: none;
-  //   }
-
-  //   &:hover .trigger {
-  //     display: block;
-  //     padding-bottom: 5px;
-  //   }
-
-  //   .page-link {
-  //     display: block;
-  //     padding: 5px 10px;
-
-  //     &:not(:last-child) {
-  //       margin-right: 0;
-  //     }
-  //     margin-left: 20px;
-  //   }
-  // }
