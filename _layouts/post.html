@@ -30,7 +30,7 @@
           </header>
           <div class="wrapper">
             <div class="post-content" itemprop="articleBody">
-              {{ content }}
+              {{ content | markdownify | hilightify }}
             </div>
 
             {% if site.disqus.shortname %}
