@@ -21,20 +21,26 @@
     width: 590px;
     height: 200px;
 
+    @media screen and (min-width: $on-laptop) {
+      width: 700px;
+    }
+
     @include media-query($on-palm) {
       width: auto;
     }
 
     .brand{
       margin-bottom: 16px;
-      // background: url("images/ARIMA_logo_black.png") no-repeat center center;
       width: 341px;
       height: 75px;
       display: inline-block;
       @extend %clearfix;
       @include media-query($on-palm) {
-        // background: url("images/ARIMA_mini_logo_black.png") no-repeat center center;
         width: 120px;
+      }
+      @media screen and (min-width: $on-laptop) {
+        width: 450px;
+        height: 100px;
       }
     }
 

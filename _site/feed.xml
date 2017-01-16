@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2017-01-15T23:22:36+01:00</updated><id>http://0.0.0.0:4000//</id><title type="html">ARIMA</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2017-01-16T09:06:12+01:00</updated><id>http://0.0.0.0:4000//</id><title type="html">ARIMA</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">Java web view technologies performance benchmark</title><link href="http://0.0.0.0:4000/mediator/feature/2017/01/12/view-rendering-performance.html" rel="alternate" type="text/html" title="Java web view technologies performance benchmark" /><published>2017-01-12T15:34:25+01:00</published><updated>2017-01-12T15:34:25+01:00</updated><id>http://0.0.0.0:4000/mediator/feature/2017/01/12/view-rendering-performance</id><content type="html" xml:base="http://0.0.0.0:4000/mediator/feature/2017/01/12/view-rendering-performance.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra neque eu quam semper, vitae venenatis justo bibendum. Nullam pulvinar tortor at neque maximus, vel sollicitudin nisi dictum. Cras dignissim, risus sit amet feugiat semper, diam velit tincidunt tortor, vitae fermentum magna ante in metus. Suspendisse blandit, elit non egestas dictum, arcu diam fringilla odio, in lobortis nibh justo at quam. Quisque ut nunc est. Ut placerat sem sit amet consequat laoreet. Quisque convallis enim ut ornare lacinia. Aliquam erat volutpat. Mauris varius odio urna, viverra eleifend dolor porttitor ac. Mauris sed pharetra libero. Ut euismod enim sed nunc suscipit mollis. In accumsan placerat ex. In vulputate neque eu rhoncus consectetur.&lt;/p&gt;
 
 &lt;p&gt;Morbi ultricies libero a mauris congue, non semper risus lobortis. In sit amet mi nec lectus iaculis ultrices. Cras pulvinar quam ante, a sodales lorem congue nec. Nulla egestas, nibh eget blandit elementum, lectus nunc volutpat nisl, id faucibus nunc erat laoreet turpis. Nullam vitae laoreet ligula. Mauris auctor facilisis eros, id lobortis arcu semper non. Nulla vel auctor metus. Cras pretium dui at erat consequat, sollicitudin elementum enim dignissim. Mauris luctus arcu elit, sed lobortis nunc vestibulum condimentum. Etiam nibh eros, malesuada tincidunt venenatis ut, iaculis id eros. Mauris vel sapien ex. In orci lacus, accumsan a finibus a, pulvinar nec dolor. Pellentesque efficitur volutpat pulvinar. Pellentesque bibendum est a libero consectetur, a cursus mauris vestibulum. In ullamcorper odio dui, a egestas ante egestas in. In ante ipsum, posuere quis imperdiet ut, rhoncus quis nunc.&lt;/p&gt;
@@ -19,11 +19,14 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>ugaitz</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Mediator Features</title><link href="http://0.0.0.0:4000/mediator/feature/2014/11/30/mediator_features.html" rel="alternate" type="text/html" title="Mediator Features" /><published>2014-11-30T15:34:25+01:00</published><updated>2014-11-30T15:34:25+01:00</updated><id>http://0.0.0.0:4000/mediator/feature/2014/11/30/mediator_features</id><content type="html" xml:base="http://0.0.0.0:4000/mediator/feature/2014/11/30/mediator_features.html">&lt;h1 id=&quot;mediator-formats-and-css-features-examples-for-different-formats-and-css-features&quot;&gt;Mediator Formats and CSS features. Examples for different formats and css features&lt;/h1&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>ugaitz</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Mediator Features</title><link href="http://0.0.0.0:4000/mediator/feature/2014/11/30/mediator_features.html" rel="alternate" type="text/html" title="Mediator Features" /><published>2014-11-30T15:34:25+01:00</published><updated>2014-11-30T15:34:25+01:00</updated><id>http://0.0.0.0:4000/mediator/feature/2014/11/30/mediator_features</id><content type="html" xml:base="http://0.0.0.0:4000/mediator/feature/2014/11/30/mediator_features.html">&lt;h1 id=&quot;mediator-formats-and-css-features&quot;&gt;Mediator Formats and CSS features.&lt;/h1&gt;
+&lt;p&gt;Examples for different formats and css features&lt;/p&gt;
 
 &lt;h1 id=&quot;header-formats&quot;&gt;Header Formats&lt;/h1&gt;
 &lt;h1 id=&quot;header1&quot;&gt;Header1&lt;/h1&gt;
 &lt;h2 id=&quot;header2&quot;&gt;Header2&lt;/h2&gt;
+&lt;h3 id=&quot;header3&quot;&gt;Header3&lt;/h3&gt;
+&lt;h4 id=&quot;header4&quot;&gt;Header4&lt;/h4&gt;
 
 &lt;h1 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -37,6 +40,12 @@
   &lt;li&gt;two&lt;/li&gt;
   &lt;li&gt;three&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h1 id=&quot;images&quot;&gt;Images&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://changelog.com/wp-content/uploads/chartjs.png&quot; alt=&quot;A chart&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;centered-image&quot;&gt;Centered image&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://changelog.com/wp-content/uploads/chartjs.png&quot; alt=&quot;A centered chart&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;unordered-lists&quot;&gt;unordered lists&lt;/h2&gt;
 &lt;ul&gt;
@@ -57,4 +66,5 @@
     &lt;li&gt;Banana&lt;/li&gt;
     &lt;li&gt;Plum&lt;/li&gt;
   &lt;/ul&gt;
-&lt;/blockquote&gt;</content><author><name>aritz</name></author><category term="featured" /><summary type="html">Mediator Formats and CSS features. Examples for different formats and css features</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name>aritz</name></author><category term="featured" /><summary type="html">Mediator Formats and CSS features.
+Examples for different formats and css features</summary></entry></feed>
