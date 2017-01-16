@@ -11,15 +11,20 @@ header-image:	2017-01-12-mediator_features/post-header.jpg
 Examples for different formats and css features
 
 # Header Formats
+
 # Header1
+
 ## Header2
+
 ### Header3
+
 #### Header4
 
 # Blockquotes
 >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
 
 # Lists
+
 ## ordered lists
 1. one
 2. two
